@@ -33,34 +33,38 @@
 .contacts:hover,
 .mail:hover,
 .tel:hover {
-    color: #2196F3;
+  color: #2196f3;
 }
 
-.header-wrapper,.header-contacts {
-    display: flex;
+.header-wrapper,
+.header-contacts {
+  display: flex;
 }
 
 .header-wrapper {
-    justify-content: space-between;
-    margin-left: 215px;
-    margin-right: 215px;
-    margin-top: 24px;
+  justify-content: space-between;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 24px;
 }
 
 .header-logo-nav {
-    display: flex;
-    gap: 93px;
-    align-items: center;
+  display: flex;
+  gap: 93px;
+  align-items: center;
 }
 
 .header-nav-list {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 .contact-list {
-    display: flex;
-    gap: 50px;
-    align-items: center;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
-
