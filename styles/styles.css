@@ -20,9 +20,7 @@
 
 .studio,
 .portfolio,
-.contacts,
-.mail,
-.tel {
+.contacts {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
@@ -36,35 +34,41 @@
   color: #2196f3;
 }
 
-.header-wrapper,
-.header-contacts {
-  display: flex;
-}
-
-.header-wrapper {
-  justify-content: space-between;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-top: 24px;
-}
-
-.header-logo-nav {
-  display: flex;
-  gap: 93px;
-  align-items: center;
-}
-
-.header-nav-list {
-  display: flex;
-  gap: 50px;
-}
 
 .contact-list {
-  display: flex;
-  gap: 50px;
-  align-items: center;
   font-family: "Roboto";
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: #757575;
 }
+
+.tel, .mail {
+    color: #757575;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.header-wrapper {
+    display: flex;
+    gap: 90px;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 50px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
