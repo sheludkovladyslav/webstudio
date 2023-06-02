@@ -1,0 +1,66 @@
+.logo-part {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.studio,
+.portfolio,
+.contacts,
+.mail,
+.tel {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.studio:hover,
+.portfolio:hover,
+.contacts:hover,
+.mail:hover,
+.tel:hover {
+    color: #2196F3;
+}
+
+.header-wrapper,.header-contacts {
+    display: flex;
+}
+
+.header-wrapper {
+    justify-content: space-between;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 24px;
+}
+
+.header-logo-nav {
+    display: flex;
+    gap: 93px;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-list {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
