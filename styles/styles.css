@@ -109,3 +109,58 @@
   color: #fff;
   margin-top: 30px;
 }
+
+.advantages-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.adantages-list li {
+  width: 270px;
+}
+
+.advantages-discription {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.adantages-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.what-we-do-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.what-we-do-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.what-we-do-list img {
+  width: 370px;
+  height: 294px;
+  margin-bottom: 94px;
+}
