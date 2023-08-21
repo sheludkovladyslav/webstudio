@@ -278,4 +278,9 @@ li {
   display: flex;
   margin: 0 auto;
   margin-bottom: 55px;
+  fill: tomato;
+}
+
+#antenna:hover path {
+  fill: #FF0000; 
 }
