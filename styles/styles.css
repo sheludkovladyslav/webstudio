@@ -278,9 +278,13 @@ li {
   display: flex;
   margin: 0 auto;
   margin-bottom: 55px;
-  fill: tomato;
+  fill: #212121;
 }
 
-#antenna:hover path {
-  fill: #FF0000; 
+.advantages-svg:hover {
+  fill: #2196F3; 
+}
+
+.black, .blue {
+  fill: none;
 }
