@@ -164,8 +164,72 @@
             </div>
           </div>
         </section>
+        <div class="backdrop" data-modal>
+          <div class="modal">
+            <button class="button-close" data-modal-close>X</button>
+            <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+            <form action="#" class="form">
+              <label for="name" class="label">Ім'я</label>
+              <div class="form-wrapper">
+                <svg class="form-svg">
+                  <use href="/img/icon.svg#black-person"></use>
+                </svg>
+                <input
+                  type="name"
+                  name="user_name"
+                  id="name"
+                  required
+                  class="input"
+                />
+              </div>
+
+              <label for="tel" class="label">Телефон</label>
+              <div class="form-wrapper">
+                <svg class="form-svg">
+                  <use href="/img/icon.svg#tel"></use>
+                </svg>
+                <input
+                  type="tel"
+                  name="user_tel"
+                  id="tel"
+                  required
+                  class="input"
+                />
+              </div>
+
+              <label for="email" class="label">Пошта</label>
+              <div class="form-wrapper">
+                <svg class="form-svg">
+                  <use href="/img/icon.svg#email"></use>
+                </svg>
+                <input
+                  type="email"
+                  name="user_email"
+                  id="email"
+                  required
+                  class="input"
+                />
+              </div>
+
+              <label for="comment" class="label">Коментар</label>
+              <textarea name="" id="comment" cols="100%" rows="100%"></textarea>
+
+              <div class="check-wrapper">
+                <input type="checkbox" id="check" name="check" required />
+                <label for="check" class="check-title"
+                  >Погоджуюся з розсилкою та приймаю
+                  <a href="#" class="active">Умови договору</a></label
+                >
+              </div>
+              <div class="btn-wrapper">
+                <button type="submit" class="btn-submit">Відправити</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </main>
     </div>
+
     <footer class="footer">
       <img class="footer-logo" src="/img/WebStudiowhite.svg" alt="logo" />
       <div class="footer-wrapper">
