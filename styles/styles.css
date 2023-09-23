@@ -36,19 +36,17 @@ li {
   color: black;
 }
 
-.studio,
-.portfolio,
-.contacts {
+.navigation-btns {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
-.studio:hover,
-.portfolio:hover,
-.contacts:hover,
-.mail:hover,
-.tel:hover {
+.active-header {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active-header:hover {
   color: #2196f3;
 }
 
@@ -281,6 +279,7 @@ li {
   margin: 0 auto;
   margin-bottom: 55px;
   fill: #212121;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .advantages-svg:hover {
@@ -491,6 +490,8 @@ textarea#comment:focus {
   letter-spacing: 0.48px;
   padding: 6px 22px;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .choose-button:hover {
@@ -503,10 +504,14 @@ textarea#comment:focus {
   width: 370px;
   border: 1px solid #eee;
   background: #fff;
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   position: relative;
   overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-card:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-img {
@@ -541,6 +546,7 @@ textarea#comment:focus {
   row-gap: 32px;
   margin-top: 34px;
   overflow: hidden;
+  padding-bottom: 114px;
 }
 
 .active {
@@ -556,6 +562,7 @@ textarea#comment:focus {
   height: 294px;
   position: absolute;
   top: 0;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   left: 0;
 }
 
@@ -570,5 +577,4 @@ textarea#comment:focus {
 
 .portfolio-card:hover .overlay {
   transform: translateY(0%);
-  transition: transform 0.6s ease;
 }
